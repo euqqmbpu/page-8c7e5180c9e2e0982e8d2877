@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "6a4b9c8d6a165fe9d745c9ab",
+  "owner": "euqqmbpu",
+  "repo": "page-8c7e5180c9e2e0982e8d2877",
+  "title": "闸总网络",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "8c7e5180c9e2e0982e8d2877",
+      "a": "闸总网络",
+      "b": "",
+      "entity": "闸总网络",
+      "brand": "闸总网络",
+      "separator": "",
+      "path": "index.html",
+      "hash": "af3903788bfd7271452cdf32a917d733aa6423f3bee324b2a96dde91180646f0",
+      "content": {
+        "keyword1": "闸总网络",
+        "keyword2": "",
+        "primary_entity": "闸总网络",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "闸总网络提供面向个人与团队的网络中转与加速服务，包含基础线路、旗舰专线与企业定制路由方案。本文档用于说明服务规格、套餐权益与常见问题。",
+          "AI_DESCRIPTION": "闸总网络提供面向个人与团队的网络中转与加速服务，包含基础线路、旗舰专线与企业定制路由方案。本文档用于说明服务规格、套餐权益与常见问题。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  *, *::before, *::after {box-sizing: border-box}\n  html, body {margin: 0;padding: 0}\n  body {font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif;color: #d8e4f0;background: #0a1929;line-height: 1.75;font-size: 15px;-webkit-font-smoothing: antialiased}\n  a {color: #ffb547;text-decoration: none}\n  a:hover {text-decoration: underline}\n\n  /* 顶部细横条导航 */\n  header {border-bottom: 1px solid rgba(255, 181, 71, 0.2);padding: 14px 24px;display: flex;align-items: center;justify-content: space-between;background: #071524;position: sticky;top: 0;z-index: 10}\n  header .brand-mark {color: #ffb547;font-weight: 600;letter-spacing: 1px;font-size: 14px}\n  header nav {display: flex;gap: 20px;font-size: 13px}\n  header nav a {color: #9bb3c9;text-decoration: none}\n  header nav a:hover {color: #ffb547;text-decoration: none}\n\n  /* 首屏：窄栏居左配大面积留白 */\n  .hero {min-height: 70vh;display: grid;grid-template-columns: minmax(280px, 380px) 1fr;gap: 0;border-bottom: 1px solid rgba(155, 179, 201, 0.15)}\n  .hero-left {padding: 80px 32px 80px 48px;border-right: 1px solid rgba(155, 179, 201, 0.12);display: flex;flex-direction: column;justify-content: center}\n  .hero-left .doc-tag {color: #ffb547;font-size: 12px;letter-spacing: 3px;text-transform: uppercase;margin-bottom: 20px}\n  .hero-left h1 {font-size: 34px;font-weight: 400;color: #ffffff;margin: 0 0 18px 0;line-height: 1.3;letter-spacing: 2px}\n  .hero-left .subline {color: #7d96b0;font-size: 13px;margin: 0}\n  .hero-right {padding: 80px 48px;display: flex;align-items: center}\n  .hero-right .lede {max-width: 460px;color: #b0c4d8;font-size: 15px}\n  .hero-right .lede p {margin: 0 0 16px 0}\n  .hero-right .lede .accent {color: #ffb547;font-weight: 500}\n\n  /* 通用区块 */\n  section {padding: 72px 48px;border-bottom: 1px solid rgba(155, 179, 201, 0.12)}\n  section h2 {font-size: 20px;font-weight: 400;color: #ffffff;margin: 0 0 8px 0;letter-spacing: 1px}\n  section .section-tag {color: #ffb547;font-size: 12px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 12px}\n  section .section-desc {color: #7d96b0;font-size: 14px;max-width: 600px;margin: 0 0 40px 0}\n\n  /* 套餐：阶梯式递进排列，无边框仅靠留白分隔 */\n  .plans {max-width: 920px}\n  .plan {padding: 36px 0;border-bottom: 1px solid rgba(155, 179, 201, 0.1)}\n  .plan:last-child {border-bottom: none}\n  .plan.plan-basic {margin-left: 0}\n  .plan.plan-flagship {margin-left: 48px}\n  .plan.plan-team {margin-left: 96px}\n  .plan-head {display: flex;align-items: baseline;gap: 16px;margin-bottom: 16px;flex-wrap: wrap}\n  .plan-name {font-size: 22px;color: #ffffff;font-weight: 400}\n  .plan-flagship .plan-name {color: #ffb547}\n  .plan-flag {font-size: 11px;color: #0a1929;background: #ffb547;padding: 2px 10px;letter-spacing: 1px}\n  .plan-price {color: #9bb3c9;font-size: 14px;margin-left: auto}\n  .plan-annual {color: #6b8198;font-size: 12px;margin-bottom: 20px}\n  .plan-features {list-style: none;padding: 0;margin: 0;display: grid;grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));gap: 8px 32px}\n  .plan-features li {color: #b0c4d8;font-size: 14px;padding-left: 18px;position: relative}\n  .plan-features li::before {content: \"—\";position: absolute;left: 0;color: #ffb547}\n\n  /* 使用说明 */\n  .usage-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));gap: 48px 40px}\n  .usage-step {/* 无边框，仅留白 */}\n  .usage-step .step-no {color: #ffb547;font-size: 13px;margin-bottom: 8px;letter-spacing: 2px}\n  .usage-step h3 {color: #ffffff;font-size: 16px;font-weight: 400;margin: 0 0 10px 0}\n  .usage-step p {color: #9bb3c9;font-size: 14px;margin: 0}\n\n  /* 客户端说明 */\n  .clients-note {color: #9bb3c9;font-size: 14px;max-width: 700px}\n  .clients-list {display: grid;grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap: 32px;margin-top: 32px}\n  .client-item {/* 无边框 */}\n  .client-item h3 {color: #ffffff;font-size: 15px;font-weight: 400;margin: 0 0 6px 0}\n  .client-item p {color: #7d96b0;font-size: 13px;margin: 0}\n\n  /* FAQ 按主题分组 */\n  .faq-group {margin-bottom: 48px}\n  .faq-group:last-child {margin-bottom: 0}\n  .faq-group h3 {color: #ffb547;font-size: 15px;font-weight: 400;margin: 0 0 20px 0;letter-spacing: 1px;border-bottom: 1px solid rgba(255, 181, 71, 0.2);padding-bottom: 8px}\n  .faq-item {margin-bottom: 24px}\n  .faq-item .q {color: #ffffff;font-size: 14px;margin: 0 0 8px 0;font-weight: 400}\n  .faq-item .a {color: #9bb3c9;font-size: 14px;margin: 0;padding-left: 16px;border-left: 2px solid rgba(255, 181, 71, 0.3)}\n\n  footer {padding: 40px 48px;background: #071524;color: #6b8198;font-size: 12px}\n  footer p {margin: 0 0 6px 0}\n\n  @media (max-width: 768px) {\n    header {padding: 12px 16px}\n    header nav {gap: 12px}\n    .hero {grid-template-columns: 1fr;min-height: auto}\n    .hero-left {padding: 48px 24px;border-right: none;border-bottom: 1px solid rgba(155, 179, 201, 0.12)}\n    .hero-left h1 {font-size: 26px}\n    .hero-right {padding: 48px 24px}\n    section {padding: 48px 24px}\n    .plan-plan-flagship {margin-left: 24px}\n    .plan-team {margin-left: 24px}\n    .plan-features {grid-template-columns: 1fr}\n    .plan-head {flex-direction: column;align-items: flex-start}\n    .plan-price {margin-left: 0}\n  }\n</style><header>\n  <div class=\"brand-mark\">闸总网络 / ZHAROUTER</div>\n  <nav>\n    <a href=\"#plans\">套餐规格</a>\n    <a href=\"#usage\">使用说明</a>\n    <a href=\"#clients\">客户端</a>\n    <a href=\"#faq\">常见问题</a>\n  </nav>\n</header>\n\n<main>\n\n  \n  <section class=\"hero\">\n    <div class=\"hero-left\">\n      <div class=\"doc-tag\">服务规格说明书 / Rev. 2025</div>\n      <h1>闸总网络</h1>\n      <p class=\"subline\">网络中转与加速服务 · 面向个人与团队</p>\n    </div>\n    <div class=\"hero-right\">\n      <div class=\"lede\">\n        <p>本页面为闸总网络服务的规格说明文档，用于向潜在订阅者陈述服务边界、套餐权益与接入方式。</p>\n        <p>服务涵盖<span class=\"accent\">基础线路中转</span>、<span class=\"accent\">旗舰专线加速</span>及面向多用户协同的<span class=\"accent\">团队定制路由</span>，按月或按年订阅。</p>\n        <p>下方内容按套餐规格、使用流程、客户端接入与常见问题四个部分依次展开。请按需查阅。</p>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"plans\">\n    <div class=\"section-tag\">01 / 套餐规格</div>\n    <h2>订阅套餐与权益对照</h2>\n    <p class=\"section-desc\">以下套餐按使用强度递进排列，价格与权益均为当前公示标准。年付方案在对应月费基础上折算。</p>\n\n    <div class=\"plans\">\n      <article class=\"plan plan-basic\">\n        <div class=\"plan-head\">\n          <span class=\"plan-name\">基础版</span>\n          <span class=\"plan-price\">¥15 / 月</span>\n        </div>\n        <div class=\"plan-annual\">按年付仅需 ¥150 / 年</div>\n        <ul class=\"plan-features\">\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n      </article>\n\n      <article class=\"plan plan-flagship\">\n        <div class=\"plan-head\">\n          <span class=\"plan-name\">旗舰版</span>\n          <span class=\"plan-flag\">推荐</span>\n          <span class=\"plan-price\">¥35 / 月</span>\n        </div>\n        <div class=\"plan-annual\">按年付仅需 ¥350 / 年</div>\n        <ul class=\"plan-features\">\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7×24 优先工单支持</li>\n        </ul>\n      </article>\n\n      <article class=\"plan plan-team\">\n        <div class=\"plan-head\">\n          <span class=\"plan-name\">团队版</span>\n          <span class=\"plan-price\">¥85 / 月</span>\n        </div>\n        <div class=\"plan-annual\">按年付仅需 ¥850 / 年</div>\n        <ul class=\"plan-features\">\n          <li>每月 1000GB 极速流量</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n      </article>\n    </div>\n  </section>\n\n  \n  <section id=\"usage\">\n    <div class=\"section-tag\">02 / 使用说明</div>\n    <h2>接入流程</h2>\n    <p class=\"section-desc\">从订阅到首次连接，通常需要在四个步骤内完成。请按顺序操作。</p>\n\n    <div class=\"usage-grid\">\n      <div class=\"usage-step\">\n        <div class=\"step-no\">步骤 一</div>\n        <h3>选择并订阅套餐</h3>\n        <p>根据设备数量与流量需求选择对应套餐。完成订阅后，系统将向注册邮箱发送服务开通通知与节点接入参数。</p>\n      </div>\n      <div class=\"usage-step\">\n        <div class=\"step-no\">步骤 二</div>\n        <h3>获取接入配置</h3>\n        <p>登录用户中心，在「订阅管理」页面查看专属订阅链接或手动配置参数。订阅链接可用于客户端自动更新节点列表。</p>\n      </div>\n      <div class=\"usage-step\">\n        <div class=\"step-no\">步骤 三</div>\n        <h3>安装客户端并导入</h3>\n        <p>根据设备系统选择对应客户端，将订阅链接导入或手动填入服务器地址、端口与加密参数。首次连接建议选择延迟最低节点。</p>\n      </div>\n      <div class=\"usage-step\">\n        <div class=\"step-no\">步骤 四</div>\n        <h3>验证连接状态</h3>\n        <p>连接成功后，客户端状态栏应显示已接入。如遇异常，请优先切换节点或协议，仍无法解决可提交工单。</p>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"clients\">\n    <div class=\"section-tag\">03 / 客户端接入</div>\n    <h2>支持的客户端平台</h2>\n    <p class=\"clients-note\">闸总网络基于通用协议栈提供服务，兼容主流开源客户端。以下为各平台常用客户端参考，具体下载地址请以各项目官方仓库为准。</p>\n\n    <div class=\"clients-list\">\n      <div class=\"client-item\">\n        <h3>Windows</h3>\n        <p>推荐使用通用协议客户端，支持订阅链接导入与多节点切换。</p>\n      </div>\n      <div class=\"client-item\">\n        <h3>macOS</h3>\n        <p>兼容开源图形界面客户端，支持系统代理与分应用路由配置。</p>\n      </div>\n      <div class=\"client-item\">\n        <h3>Android</h3>\n        <p>支持主流开源客户端，可通过订阅链接自动同步节点配置。</p>\n      </div>\n      <div class=\"client-item\">\n        <h3>iOS</h3>\n        <p>需通过对应地区应用商店获取兼容客户端，导入订阅链接使用。</p>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"faq\">\n    <div class=\"section-tag\">04 / 常见问题</div>\n    <h2>常见问题说明</h2>\n    <p class=\"section-desc\">以下问题按订阅管理、连接故障、节点与线路三个主题分组。如未涵盖您的疑问，可通过工单系统进一步咨询。</p>\n\n    <div class=\"faq-group\">\n      <h3>订阅管理</h3>\n      <div class=\"faq-item\">\n        <p class=\"q\">月付与年付之间如何切换？</p>\n        <p class=\"a\">在用户中心的「订阅管理」页面可变更计费周期。从月付切换至年付时，系统将按剩余天数折算差价并自动续期。反向切换同理。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">流量用尽后服务是否立即中断？</p>\n        <p class=\"a\">流量耗尽当月，连接将被暂停至下一个计费周期。用户可提前在用户中心购买流量加包，加包流量当月有效，不结转。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">套餐是否支持中途退款？</p>\n        <p class=\"a\">首次订阅 24 小时内且未产生超过 1GB 流量使用记录的，可申请全额退款。超出该条件的退款申请将按剩余天数按比例评估处理。</p>\n      </div>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>连接与故障</h3>\n      <div class=\"faq-item\">\n        <p class=\"q\">连接成功但无法访问网页，如何排查？</p>\n        <p class=\"a\">依次检查：客户端是否已开启系统代理模式、当前节点是否在线、设备 DNS 是否被接管。建议切换至其他节点或更换协议后重试。若仍无效，请提交包含客户端日志的工单。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">多台设备同时连接时出现频繁掉线？</p>\n        <p class=\"a\">请确认当前同时在线设备数未超过套餐上限。基础版限 3 台，旗舰版限 5 台，团队版限 20 台。超出限制时，最新连接设备将挤掉最早在线的设备。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">iOS 设备连接后无法收到推送通知？</p>\n        <p class=\"a\">部分代理模式下系统推送通道可能受影响。建议在客户端规则中将 Apple 推送服务相关域名设为直连，或切换至全局模式外其他可用模式。</p>\n      </div>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>节点与线路</h3>\n      <div class=\"faq-item\">\n        <p class=\"q\">基础版与旗舰版节点有什么区别？</p>\n        <p class=\"a\">基础版接入普通线路节点池，满足日常浏览与基础流媒体观看。旗舰版接入包含 IPLC 专线在内的全节点池，并对游戏加速与高带宽流媒体场景做了路由优化。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">团队版的定制路由具体可定制什么？</p>\n        <p class=\"a\">团队版支持按目标 IP 段、域名或应用协议指定出口节点，可为企业内网回源、特定地区合规访问等场景配置独立路由策略。定制需求由专属客户经理对接评估。</p>\n      </div>\n      <div class=\"faq-item\">\n        <p class=\"q\">节点列表多久更新一次？</p>\n        <p class=\"a\">节点池维护为动态管理，具体更新频率不做固定承诺。使用订阅链接的客户端将在每次启动时拉取最新节点列表。手动配置用户需定期在用户中心查看公告。</p>\n      </div>\n    </div>\n  </section>\n\n</main>\n\n<footer>\n  <p>闸总网络 — 网络中转与加速服务规格文档</p>\n  <p>本页面内容用于说明服务规格与使用方式，不构成任何法律或合规承诺。服务可用性受网络环境与当地法规约束。</p>\n</footer>",
+          "hash": "5f3fe080bbf19c6e2d820a607ce0fda48c70792174b1276e74c1d3f82bc4bc9f",
+          "seo": {
+            "title": "闸总网络 — 网络中转与加速服务说明文档",
+            "keywords": "闸总网络,网络中转,专线加速,IPLC,流媒体解锁,多设备支持,工单支持",
+            "description": "闸总网络提供面向个人与团队的网络中转与加速服务，包含基础线路、旗舰专线与企业定制路由方案。本文档用于说明服务规格、套餐权益与常见问题。"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "4422",
+            "hero": "7 窄栏居左配大面积留白",
+            "palette": "3 深海蓝配琥珀",
+            "nav": "1 顶部细横条",
+            "card": "1 无边框仅靠留白分隔",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "1 冷静克制的说明书口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "aibycoi.cn",
+    "host": "p-cfdcb654f1.aibycoi.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "25cbed7b6053748783377db683b37f302f4e5a477a4a408b343fcdeda66df989",
+    "sitemap.xml": "f74dddc405205895293b1bc4749e369daa7f38859c8d0eb0f04e58066efcc252",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "84df3903ed805208dfbee901457e25af793abb0d767681d9f4349a390f6d3bb8",
+    "robots.txt": "f957b88fc33499bc3faeabccb814fbfcf47f517cfb8d18a15175b6e309cdd11f",
+    "2723b6c7f5b8939a0d6fccd9228180e2.txt": "95cbaf5d03528734ae04aa9c1a15cea4c33a2968edcc6595e3b6f6dd7ae44e35"
+  },
+  "revision": "56fdf07a9d510ddea4d2099619fba5dea81ca757d8faaf538b31296aae926eb7"
+}

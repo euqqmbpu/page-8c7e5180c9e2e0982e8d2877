@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-cfdcb654f1.aibycoi.cn/sitemap.xml
